@@ -4,37 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Minions Talk</title>
+    <title>Minions Translator | Minions Talks</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <h1>Banana Talk</h1>
-      </div>
-      <div class="contain">
-        <textarea
-          placeholder="Enter Something to translate"
-          id="input"
-          cols="30"
-          rows="10"
-        ></textarea>
-      </div>
-      <div class="button"><button id="translate-btn">Translate</button></div>
-      <div class="display">
-        <div class="display">
-          <textarea
-            disabled
-            name=""
-            placeholder="Translated output is shown here
-            "
-            id="display"
-            cols="30"
-            rows="10"
-          ></textarea>
-        </div>
-      </div>
+    <div class="icon">
+      <a id="icon" href=""><i class="fab fa-github"></i></a>
     </div>
+    <h1 id="header">Minions Talks</h1>
+    <div class="container">
+      <textarea placeholder="text to be translated" name="" id="input" cols="25" rows="8"></textarea>
+      <button id="translate-btn">Translate</button>
+      <textarea placeholder="translated text will be shown here" disabled name="" id="output" cols="25" rows="8"></textarea>
+    </div>
+    <footer class="footer">
+      <div class="footer-header">About</div>
+      <p>Are you a fan of minions? Did you know that the gibberish they say is an actual language? Use this translator to convert your text from English to Minion speak or Banana language.
+        <b>Note: Only 5 API calls per hour is available.<b></p>          
+    </footer>
+
     <script src="./script.js"></script>
   </body>
 </html>

@@ -1,68 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+#translate-btn {
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 1rem;
+}
+
 .container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 5%;
-  max-height: 100%;
+  text-align: center;
+  margin: auto;
 }
 
-.header {
-  width: 100%;
+h1 {
   text-align: center;
-}
-
-.contain {
-  display: flex;
-  height: 120px;
-  width: 100%;
-  text-align: center;
-  justify-content: center;
 }
 
 textarea {
-  border-radius: 10%;
-  border: 3px solid;
-  padding: 20px;
-  outline: none;
-  font-size: 1.2em;
-  font-style: italic;
-}
-
-#display.value {
-  color: red;
-}
-
-.button {
-  margin-top: 10px;
-}
-
-button {
-  padding: 1rem;
-  border-style: none;
+  margin: 0.5rem 0rem;
   border-radius: 1rem;
-  background-color: rgb(243, 38, 38);
-  font-weight: bold;
-  color: white;
+  padding: 1rem;
+  border: 1px solid black;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  background-image: url("https://wallpapercave.com/wp/WkPWikq.jpg");
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
-.display {
-  display: flex;
-  height: 120px;
-  width: 100%;
+footer {
   text-align: center;
-  justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
-textarea::placeholder {
-  color: red;
-  font-size: 1.2em;
-  font-style: italic;
+.footer-header {
+  font-weight: bold;
+}
+
+.fab {
+  font-size: 2rem;
+}
+
+.icon {
+  text-align: right;
+  padding-top: 0.8rem;
+  padding-right: 1rem;
 }

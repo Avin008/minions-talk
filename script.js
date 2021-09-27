@@ -1,6 +1,6 @@
 const translateBtn = document.querySelector("#translate-btn");
-const displayOutput = document.querySelector("#display");
-const input = document.querySelector("#input");
+const displayOutput = document.querySelector("#output-box");
+const input = document.querySelector("#input-box");
 
 translateBtn.addEventListener("click", function () {
   let str = input.value;
